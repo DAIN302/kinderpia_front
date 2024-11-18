@@ -1,0 +1,14 @@
+@import '../../common/variables';
+
+.static-map{
+  &-container{
+  display: flex;
+  margin: $caption auto;
+  width: 90%;
+  height: 45%;
+  pointer-events: none;
+  }
+  &-spinner{
+    margin: 0 auto;
+  }
+}
