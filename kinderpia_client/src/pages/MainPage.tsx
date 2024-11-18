@@ -109,7 +109,10 @@ function MainPage() {
           <p className="joyride-content-title">
             <span className="accent">채팅목록</span>으로 이동합니다.
           </p>
-          <p>참여모임 목록을 확인할수 있어요!</p>
+          <p>
+            참여모임 목록을 <br />
+            확인할수 있어요!
+          </p>
         </div>
       ),
     },
@@ -239,6 +242,7 @@ function MainPage() {
           }}
           callback={handleJoyrideCallback}
         />
+        <span className="tooltip-animation">도움말</span>
         <button
           type="button"
           id="help-info"
@@ -281,6 +285,7 @@ function MainPage() {
                 averageStar={place.averageStar}
                 paid={place.paid}
                 placeImg={place.placeImg}
+                totalReviewCount={place.totalReviewCount}
               />
             </SwiperSlide>
           ))}

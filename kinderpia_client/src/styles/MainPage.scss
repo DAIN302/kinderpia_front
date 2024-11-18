@@ -6,6 +6,22 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  @include moveAndFadeAnimation;
+  .tooltip-animation {
+    top: 1.5rem;
+    right: 8rem;
+  }
+  .tooltip-animation::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -1rem;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #f0f0f0;
+  }
+
   #help-info {
     position: absolute;
     top: 1rem;
@@ -140,7 +156,6 @@
   }
 }
 
-// joyride 튜토리얼 css
 .joyride-content {
   .joyride-content-title {
     text-align: center;
