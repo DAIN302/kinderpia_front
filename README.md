@@ -19,27 +19,17 @@
 
 <br>
 
-## 🙋 2. Front-End Developers
+❣ 회원 가입할 때 테스트 계정을 생성하거나, 로그인화면에서 [테스트 유저 계정으로 로그인] 버튼을 누르면
+해당 프로젝트를 빠르게 살펴볼 수 있습니다.❣
 
-#### 강예나 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yenaf)
+[👉 킨더피아 배포링크 바로가기](http://ec2-3-38-150-41.ap-northeast-2.compute.amazonaws.com/)<br/>
 
-- 회원 관리 기능(회원가입, 로그인, 프로필 관리 등), 튜토리얼 기능
+[👉 킨더피아 위키 바로가기](https://github.com/SeSAC-3rd-Kinderpia/kinderpia_front/wiki)
 
-#### 이다인 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/DAIN302)
-
-- 웹 소켓을 이용한 실시간 채팅
-
-#### 양태완 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/behindy3359)
-
-- 모임 기능, 지도 기능, 관리자 페이지
-
-#### 이유나 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
-
-- 장소 조회/검색, 리뷰 작성/삭제/신고
 
 <br>
 
-## 📅 3. 개발일정
+## 📅 2. 개발일정
 
 🗓️ 기간 : 2024.10.21 (월) ~ 11.08 (금)
 
@@ -50,35 +40,7 @@
 
 <br>
 
-## ⚙️ 4. 기술 스택
-
-- 클라이언트 앱
-
-  언어 : TypeScript
-
-  프레임워크 : React.js
-
-  스타일 : Sass
-
-  라이브러리 : sweetalert2, react-calendar, sockjs-client, react-joyride, react-redux
-
-- 관리자 앱
-
-  언어 : TypeScript
-
-  프레임워크 : React.js
-
-  스타일 : tailwindcss, sass
-
-  라이브러리 : react-chartjs-2
-
-- Naver API 통신용 Express.js 서버
-
-  언어 : TypeScript
-
-  프레임워크 : Express.js
-
-## 📂 5. 프로젝트 폴더 구조
+## 📂 3. 프로젝트 폴더 구조
 
 ```
 📂src/
@@ -116,48 +78,39 @@ app.tsx              # React-Route모음
 
 ```
 
-## 😀 6. Use Case(유스케이스)
+## 😀 4. Use Case(유스케이스)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/14bda5ae-c54c-4891-96c9-c145ef7b9054" width="500" height="auto" alt="유스케이스 다이어그램">
 </p>
 
-## 🏷️ 7. 기능 소개
+## ⚙️ 5. 기술 스택
 
-### 0) 메인 페이지
+### Languages
+<img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <br/>
 
-| 시작 화면                                                                                                                                       | 온보딩 튜토리얼                                                                                                                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/user-attachments/assets/3332690a-2a31-413f-9a6c-6606b412eb72" width="243" height="auto" alt="메인페이지 시작화면"> | <img src="https://github.com/user-attachments/assets/c110df9e-f7c5-43fe-95f7-8d53225f6b1f" width="243" height="auto" alt="메인페이지 온보딩 튜토리얼"> |
+### Framework / Library
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"><br/>
+<img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> 
+<img src="https://img.shields.io/badge/STOMP.js-000000?style=for-the-badge&logo=winston&logoColor=white"> <img src="https://img.shields.io/badge/SockJS-000000?style=for-the-badge&logo=winston&logoColor=white">
+<img src="https://img.shields.io/badge/SweetAlert2-000000?style=for-the-badge&logo=winston&logoColor=white"><br/>
 
-### 1) 회원기능
+### Style
+ <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
 
-| 회원가입 페이지                                                                                                                             | 로그인 페이지                                                                                                                             | 마이페이지                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/4c0734b2-19c6-45fa-b7fe-0073d38a0d9d" width="243" height="auto" alt="회원가입 페이지"> | <img src="https://github.com/user-attachments/assets/646bd240-8742-4e46-a917-997d7ce949f4" width="243" height="auto" alt="로그인 페이지"> | <img src="https://github.com/user-attachments/assets/2c91a558-3ec1-4ab7-b906-c4e1f2db4764" width="243" height="auto" alt="마이페이지"> |
+ <br/>
 
-### 2) 장소기능
+## 🏷️ 6. 담당한 기능
+### 채팅 기능
 
-| 장소 검색                                                                                                                              | 장소 상세조회                                                                                                                              | 리뷰 작성/관리                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/695a0e93-0dca-4084-8dba-0c37771e13e8"  width="243" height="auto" alt="장소 검색"> | <img src="https://github.com/user-attachments/assets/d623c84b-39bc-4f5a-98ae-7cdff044d1db"  width="243" height="auto" alt="장소 상세조회"> | <img src="https://github.com/user-attachments/assets/57b711b9-45a0-4f35-a0f2-0717c9162b61"  width="243" height="auto" alt="리뷰작성관리"> |
-
-### 3) 모임기능
-
-| 모임 검색                                                                                                                                 | 모임 생성                                                                                                                                 | 모임 참여                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/d2c0adb0-dfdf-4fad-93e6-e9be9e252770"  width="243" height="auto" alt="리뷰작성관리"> | <img src="https://github.com/user-attachments/assets/4d29f7df-13ef-4c6b-85d1-e539535e29f5"  width="243" height="auto" alt="리뷰작성관리"> | <img src="https://github.com/user-attachments/assets/94873c45-a95a-440f-abba-fca146317e69"  width="243" height="auto" alt="리뷰작성관리"> |
-
-| 모임 수정/관리                                                                                                                            | 채팅                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/befd81e7-e986-4708-a297-cca1c5ea76e5"  width="243" height="auto" alt="리뷰작성관리"> | <img src="https://github.com/user-attachments/assets/addd56ea-f22b-4273-8250-7246e3eb811f"  width="243" height="auto" alt="리뷰작성관리"> |
-
-### 3) 관리자 기능
-
-| 관리자 메인                                                                                   | 회원 통계                                                                                     |
+| 채팅 목록 페이지                                                                              | 채팅방 입장                                                                                     |
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| ![adminmain](https://github.com/user-attachments/assets/dc4c2712-e497-4abb-a3bd-1aa77238b3aa) | ![adminuser](https://github.com/user-attachments/assets/c435a81e-e2ff-4ac1-9e1d-f018fd98fdd5) |
+| ![]() | ![]() |
 
-| 모임 통계                                                                                        | 신고 조회                                                                                       |
+| 메시지 송수신                                                                                    | 참여 인원 확인                                                                                      |
 | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| ![adminmeeting](https://github.com/user-attachments/assets/92aa4380-6008-48b4-a4ab-a231b4baf005) | ![adminreport](https://github.com/user-attachments/assets/a4def0d7-5ea3-4a62-b011-de689511273c) |
+| ![]() | ![]() |
+
+| 채팅 메시지 신고                                                                                 | 채팅방 떠나기                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| ![]() | ![]() |
