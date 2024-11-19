@@ -82,7 +82,7 @@ app.tsx              # React-Route모음
   <img src="https://github.com/user-attachments/assets/14bda5ae-c54c-4891-96c9-c145ef7b9054" width="500" height="auto" alt="유스케이스 다이어그램">
 </p>
 
-## ⚙️ 5. 기술 스택
+## ⚙️ 5. 사용한 기술
 
 ### Languages
 <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <br/>
@@ -99,7 +99,7 @@ app.tsx              # React-Route모음
  <br/>
 
 ## 🏷️ 6. 담당한 기능
-### 채팅 기능
+### 웹 소켓을 이용한 실시간 채팅 기능
 
 | 채팅 목록 페이지                                                                           | 채팅방 입장                                                                                |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
