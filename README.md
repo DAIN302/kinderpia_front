@@ -23,9 +23,7 @@
 해당 프로젝트를 빠르게 살펴볼 수 있습니다.❣
 
 [👉 킨더피아 배포링크 바로가기](http://ec2-3-38-150-41.ap-northeast-2.compute.amazonaws.com/)<br/>
-
-[👉 킨더피아 위키 바로가기](https://github.com/SeSAC-3rd-Kinderpia/kinderpia_front/wiki)
-
+[👉 킨더피아 팀 레포지토리 바로가기](https://github.com/SeSAC-3rd-Kinderpia/kinderpia_front)
 
 <br>
 
@@ -92,25 +90,25 @@ app.tsx              # React-Route모음
 ### Framework / Library
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"><br/>
 <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> 
-<img src="https://img.shields.io/badge/STOMP.js-000000?style=for-the-badge&logo=winston&logoColor=white"> <img src="https://img.shields.io/badge/SockJS-000000?style=for-the-badge&logo=winston&logoColor=white">
-<img src="https://img.shields.io/badge/SweetAlert2-000000?style=for-the-badge&logo=winston&logoColor=white"><br/>
+<img src="https://img.shields.io/badge/STOMP.js-000000?style=for-the-badge&logo=&logoColor=white"> <img src="https://img.shields.io/badge/SockJS-000000?style=for-the-badge&logo=&logoColor=white">
+<img src="https://img.shields.io/badge/SweetAlert2-000000?style=for-the-badge&logo=&logoColor=white"><br/>
 
 ### Style
  <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-
+ 
  <br/>
 
 ## 🏷️ 6. 담당한 기능
 ### 채팅 기능
 
-| 채팅 목록 페이지                                                                              | 채팅방 입장                                                                                     |
-| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| ![]() | ![]() |
+| 채팅 목록 페이지                                                                           | 채팅방 입장                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| ![채팅목록페이지](https://blog.kakaocdn.net/dn/NXftA/btsKPwTJB6k/Btl6YhkesFWL6lo219jBBK/img.gif) | ![채팅방입장](https://blog.kakaocdn.net/dn/tm2Sz/btsKOJzm1RG/YQzdFxkAO5cqKsD7Hg8Ev0/img.gif) |
 
 | 메시지 송수신                                                                                    | 참여 인원 확인                                                                                      |
 | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| ![]() | ![]() |
+| ![메시지송수신](https://blog.kakaocdn.net/dn/ciCUZa/btsKOIUKfZY/5o23t5DhTPCG1cbE6RhDYk/img.gif) | ![참여인원확인](https://blog.kakaocdn.net/dn/eiP8Cc/btsKNUBNDND/MT2asYWcLZTjACyKZK8BRk/img.gif) |
 
 | 채팅 메시지 신고                                                                                 | 채팅방 떠나기                                                                                      |
 | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| ![]() | ![]() |
+| ![채팅메시지신고](https://blog.kakaocdn.net/dn/cYq6S2/btsKPFXdlse/HW4Bj9q5aStku3iuqbGwK1/img.gif) | ![채팅방떠나기](https://blog.kakaocdn.net/dn/Xwusu/btsKPcnGrMm/S1vvw7MOqSKxynYuXhkrzK/img.gif) |
